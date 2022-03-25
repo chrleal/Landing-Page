@@ -1,7 +1,7 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
 body{
-    background-color: black;
     margin: 0;
-    padding: 0 120px;
 }
 
 ul{
@@ -16,7 +16,7 @@ a{
     color: #F9FAF8;
     margin: 10px;
     font-size: 18px;
-    font-family: roboto, helvetica, sans-serif;
+    font-family: Roboto, helvetica, sans-serif;
 }
 
 .bodycontainer{
@@ -47,8 +47,9 @@ a{
 
 .boxcontainer {
     display: flex;
-    margin: auto;
+    justify-content: center;
     padding: 150px 200px;
+    gap: 100px;
 }
 
 .title {
@@ -81,13 +82,13 @@ a{
 }
 
 .box2 {
-    display: flex;
+    padding-top: 90px;
+    text-align: center;
     background-color: grey;
-    justify-content: center;
-    align-items: center;
     height: 200px;
     color: #F9FAF8;
     font-family: Roboto, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .box1, .box2 {
@@ -114,6 +115,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 52px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -135,10 +137,14 @@ a{
 }
 
 .body2 {
+    background-color: #E5E7EB;
+}
+
+.body2container {
     display: flex;
     flex-direction: column;
-    background-color: #E5E7EB;
-    padding: 120px 350px;
+    padding: 100px 350px;
+
 }
 
 .textbody, .textbodysig {
@@ -167,7 +173,9 @@ a{
     background-color: #388DF6;
     border-radius: 10px;
     justify-content: space-around;
-    padding: 50px 0;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
 }
 
 .box3container {
@@ -180,11 +188,10 @@ a{
     background-color: #388DF6;
     color:#F9FAF8;
     border: 2px solid #F9FAF8;
-    border-radius: 6px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
-    padding: 0 35px;
-    max-height: 35px;
+    padding: 6px 35px;
 }
 
 .insidetitle {
